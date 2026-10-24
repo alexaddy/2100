@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e6e1ef"/><stop offset="1" stop-color="#f7f0e9"/></linearGradient></defs>
+<rect width="800" height="600" fill="url(#sky)"/>
+<circle cx="688" cy="96" r="36" fill="#ffffff" fill-opacity="0.45"/>
+<rect y="440" width="800" height="160" fill="#d5d0da"/>
+<rect x="230" y="160" width="340" height="22" rx="4" fill="#7b719a"/>
+<rect x="240" y="182" width="320" height="258" rx="6" fill="#948aaf"/>
+<rect x="262" y="222" width="34" height="46" rx="3" fill="#f1eef7"/>
+<rect x="326" y="222" width="34" height="46" rx="3" fill="#f1eef7"/>
+<rect x="390" y="222" width="34" height="46" rx="3" fill="#f1eef7"/>
+<rect x="454" y="222" width="34" height="46" rx="3" fill="#f1eef7"/>
+<rect x="518" y="222" width="34" height="46" rx="3" fill="#f1eef7"/>
+<rect x="262" y="296" width="34" height="46" rx="3" fill="#f1eef7"/>
+<rect x="326" y="296" width="34" height="46" rx="3" fill="#f1eef7"/>
+<rect x="390" y="296" width="34" height="46" rx="3" fill="#f1eef7"/>
+<rect x="454" y="296" width="34" height="46" rx="3" fill="#f1eef7"/>
+<rect x="518" y="296" width="34" height="46" rx="3" fill="#f1eef7"/>
+<rect x="262" y="370" width="34" height="46" rx="3" fill="#f1eef7"/>
+<rect x="326" y="370" width="34" height="46" rx="3" fill="#f1eef7"/>
+<rect x="454" y="370" width="34" height="46" rx="3" fill="#f1eef7"/>
+<rect x="518" y="370" width="34" height="46" rx="3" fill="#f1eef7"/>
+<rect x="378" y="384" width="44" height="56" rx="4" fill="#7b719a"/>
+<rect y="478" width="800" height="4" fill="#c6bfd0"/>
+<rect y="516" width="800" height="4" fill="#c6bfd0"/>
+<rect y="554" width="800" height="4" fill="#c6bfd0"/>
+<rect x="260" y="482" width="4" height="34" fill="#c6bfd0"/>
+<rect x="540" y="520" width="4" height="34" fill="#c6bfd0"/>
+<rect x="64" y="448" width="120" height="62" rx="8" fill="#7b719a"/>
+<circle cx="96" cy="436" r="28" fill="#8a9a7e"/>
+<circle cx="148" cy="442" r="24" fill="#8a9a7e"/>
+<rect x="616" y="448" width="120" height="62" rx="8" fill="#7b719a"/>
+<circle cx="648" cy="436" r="28" fill="#8a9a7e"/>
+<circle cx="700" cy="442" r="24" fill="#8a9a7e"/>
+<rect x="348" y="468" width="150" height="12" rx="4" fill="#7b719a"/>
+<rect x="358" y="480" width="10" height="20" fill="#7b719a"/>
+<rect x="472" y="480" width="10" height="20" fill="#7b719a"/>
+<rect x="348" y="500" width="150" height="14" rx="5" fill="#7b719a"/>
+<rect x="358" y="514" width="12" height="34" fill="#7b719a"/>
+<rect x="470" y="514" width="12" height="34" fill="#7b719a"/>
+<text x="40" y="573" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#7b719a">Courtyard - replace with your photo (assets/img/gallery-3.svg)</text>
+</svg>

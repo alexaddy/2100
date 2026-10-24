@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="480" viewBox="0 0 1600 480">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dfe9ec"/><stop offset="1" stop-color="#f7f1e4"/></linearGradient></defs>
+<rect width="1600" height="480" fill="url(#sky)"/>
+<circle cx="1376" cy="77" r="72" fill="#ffffff" fill-opacity="0.45"/>
+<rect y="384" width="1600" height="96" fill="#cdd7c0"/>
+<rect x="381" y="118" width="774" height="19" rx="4" fill="#74917f"/>
+<rect x="400" y="134" width="736" height="250" rx="6" fill="#8fae9a"/>
+<rect x="466" y="173" width="65" height="39" rx="3" fill="#eef5f0"/>
+<rect x="574" y="173" width="65" height="39" rx="3" fill="#eef5f0"/>
+<rect x="682" y="173" width="65" height="39" rx="3" fill="#eef5f0"/>
+<rect x="790" y="173" width="65" height="39" rx="3" fill="#eef5f0"/>
+<rect x="898" y="173" width="65" height="39" rx="3" fill="#eef5f0"/>
+<rect x="1005" y="173" width="65" height="39" rx="3" fill="#eef5f0"/>
+<rect x="466" y="240" width="65" height="39" rx="3" fill="#eef5f0"/>
+<rect x="574" y="240" width="65" height="39" rx="3" fill="#eef5f0"/>
+<rect x="682" y="240" width="65" height="39" rx="3" fill="#eef5f0"/>
+<rect x="790" y="240" width="65" height="39" rx="3" fill="#eef5f0"/>
+<rect x="898" y="240" width="65" height="39" rx="3" fill="#eef5f0"/>
+<rect x="1005" y="240" width="65" height="39" rx="3" fill="#eef5f0"/>
+<rect x="466" y="306" width="65" height="39" rx="3" fill="#eef5f0"/>
+<rect x="574" y="306" width="65" height="39" rx="3" fill="#eef5f0"/>
+<rect x="898" y="306" width="65" height="39" rx="3" fill="#eef5f0"/>
+<rect x="1005" y="306" width="65" height="39" rx="3" fill="#eef5f0"/>
+<rect x="748" y="324" width="40" height="60" rx="4" fill="#74917f"/>
+<rect x="270" y="331" width="19" height="53" fill="#74917f"/>
+<circle cx="261" cy="302" r="77" fill="#7d9877"/>
+<circle cx="328" cy="317" r="58" fill="#7d9877"/>
+<rect x="1246" y="331" width="19" height="53" fill="#74917f"/>
+<circle cx="1237" cy="302" r="77" fill="#7d9877"/>
+<circle cx="1304" cy="317" r="58" fill="#7d9877"/>
+</svg>

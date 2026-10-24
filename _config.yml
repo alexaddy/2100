@@ -1,0 +1,13 @@
+title: The Coop
+description: The resident website for our cooperative building
+# Custom domain: set baseurl to / once a CNAME file is committed (see README.md)
+baseurl: /
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore

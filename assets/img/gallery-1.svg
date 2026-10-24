@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6e8e4"/><stop offset="1" stop-color="#fbf4e8"/></linearGradient></defs>
+<rect width="800" height="600" fill="url(#sky)"/>
+<circle cx="688" cy="96" r="36" fill="#ffffff" fill-opacity="0.45"/>
+<rect y="480" width="800" height="120" fill="#e0d5c8"/>
+<rect x="190" y="147" width="387" height="24" rx="4" fill="#97746f"/>
+<rect x="200" y="168" width="368" height="312" rx="6" fill="#b08e88"/>
+<rect x="233" y="217" width="32" height="48" rx="3" fill="#f9f0ea"/>
+<rect x="287" y="217" width="32" height="48" rx="3" fill="#f9f0ea"/>
+<rect x="341" y="217" width="32" height="48" rx="3" fill="#f9f0ea"/>
+<rect x="395" y="217" width="32" height="48" rx="3" fill="#f9f0ea"/>
+<rect x="449" y="217" width="32" height="48" rx="3" fill="#f9f0ea"/>
+<rect x="503" y="217" width="32" height="48" rx="3" fill="#f9f0ea"/>
+<rect x="233" y="300" width="32" height="48" rx="3" fill="#f9f0ea"/>
+<rect x="287" y="300" width="32" height="48" rx="3" fill="#f9f0ea"/>
+<rect x="341" y="300" width="32" height="48" rx="3" fill="#f9f0ea"/>
+<rect x="395" y="300" width="32" height="48" rx="3" fill="#f9f0ea"/>
+<rect x="449" y="300" width="32" height="48" rx="3" fill="#f9f0ea"/>
+<rect x="503" y="300" width="32" height="48" rx="3" fill="#f9f0ea"/>
+<rect x="233" y="383" width="32" height="48" rx="3" fill="#f9f0ea"/>
+<rect x="287" y="383" width="32" height="48" rx="3" fill="#f9f0ea"/>
+<rect x="449" y="383" width="32" height="48" rx="3" fill="#f9f0ea"/>
+<rect x="503" y="383" width="32" height="48" rx="3" fill="#f9f0ea"/>
+<rect x="374" y="405" width="20" height="75" rx="4" fill="#97746f"/>
+<rect x="135" y="414" width="10" height="66" fill="#97746f"/>
+<circle cx="130" cy="378" r="38" fill="#a8977f"/>
+<circle cx="164" cy="396" r="29" fill="#a8977f"/>
+<rect x="623" y="414" width="10" height="66" fill="#97746f"/>
+<circle cx="618" cy="378" r="38" fill="#a8977f"/>
+<circle cx="652" cy="396" r="29" fill="#a8977f"/>
+<text x="40" y="573" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#97746f">Building exterior - replace with your photo (assets/img/gallery-1.svg)</text>
+</svg>

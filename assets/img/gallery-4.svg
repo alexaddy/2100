@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e1edde"/><stop offset="1" stop-color="#f4f5e9"/></linearGradient></defs>
+<rect width="800" height="600" fill="url(#sky)"/>
+<circle cx="688" cy="96" r="36" fill="#ffffff" fill-opacity="0.45"/>
+<rect y="360" width="800" height="240" fill="#cdd9c1"/>
+<rect x="330" y="216" width="180" height="14" rx="3" fill="#597f56"/>
+<rect x="338" y="230" width="164" height="130" rx="4" fill="#71996d"/>
+<rect x="354" y="248" width="22" height="30" rx="2" fill="#eff6ed"/>
+<rect x="392" y="248" width="22" height="30" rx="2" fill="#eff6ed"/>
+<rect x="430" y="248" width="22" height="30" rx="2" fill="#eff6ed"/>
+<rect x="468" y="248" width="22" height="30" rx="2" fill="#eff6ed"/>
+<rect x="354" y="300" width="22" height="30" rx="2" fill="#eff6ed"/>
+<rect x="468" y="300" width="22" height="30" rx="2" fill="#eff6ed"/>
+<rect x="402" y="316" width="28" height="44" rx="3" fill="#597f56"/>
+<rect x="118" y="290" width="24" height="130" fill="#597f56"/>
+<circle cx="130" cy="240" r="72" fill="#5f8a5c"/>
+<circle cx="66" cy="286" r="46" fill="#5f8a5c"/>
+<circle cx="196" cy="286" r="46" fill="#5f8a5c"/>
+<rect x="548" y="352" width="230" height="8" fill="#597f56"/>
+<rect x="560" y="330" width="14" height="96" fill="#71996d"/>
+<rect x="584" y="330" width="14" height="96" fill="#71996d"/>
+<rect x="608" y="330" width="14" height="96" fill="#71996d"/>
+<rect x="632" y="330" width="14" height="96" fill="#71996d"/>
+<rect x="656" y="330" width="14" height="96" fill="#71996d"/>
+<rect x="680" y="330" width="14" height="96" fill="#71996d"/>
+<rect x="704" y="330" width="14" height="96" fill="#71996d"/>
+<rect x="728" y="330" width="14" height="96" fill="#71996d"/>
+<rect x="752" y="330" width="14" height="96" fill="#71996d"/>
+<rect x="375" y="360" width="90" height="240" fill="#e3e9d7"/>
+<rect x="150" y="470" width="200" height="44" rx="8" fill="#597f56"/>
+<rect x="176" y="448" width="4" height="24" fill="#5f8a5c"/>
+<circle cx="178" cy="442" r="9" fill="#e8b4b8"/>
+<rect x="206" y="448" width="4" height="24" fill="#5f8a5c"/>
+<circle cx="208" cy="442" r="9" fill="#f2d492"/>
+<rect x="236" y="448" width="4" height="24" fill="#5f8a5c"/>
+<circle cx="238" cy="442" r="9" fill="#ffffff"/>
+<rect x="266" y="448" width="4" height="24" fill="#5f8a5c"/>
+<circle cx="268" cy="442" r="9" fill="#e8b4b8"/>
+<rect x="296" y="448" width="4" height="24" fill="#5f8a5c"/>
+<circle cx="298" cy="442" r="9" fill="#f2d492"/>
+<rect x="590" y="522" width="140" height="10" rx="4" fill="#597f56"/>
+<rect x="600" y="532" width="9" height="16" fill="#597f56"/>
+<rect x="711" y="532" width="9" height="16" fill="#597f56"/>
+<rect x="590" y="548" width="140" height="13" rx="5" fill="#597f56"/>
+<rect x="600" y="561" width="11" height="26" fill="#597f56"/>
+<rect x="709" y="561" width="11" height="26" fill="#597f56"/>
+<text x="40" y="573" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#597f56">Garden - replace with your photo (assets/img/gallery-4.svg)</text>
+</svg>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e5ecdf"/><stop offset="1" stop-color="#f6f0e2"/></linearGradient></defs>
+<rect width="1200" height="800" fill="url(#sky)"/>
+<circle cx="1032" cy="128" r="54" fill="#ffffff" fill-opacity="0.45"/>
+<rect y="640" width="1200" height="160" fill="#d4dabd"/>
+<rect x="286" y="196" width="581" height="32" rx="4" fill="#88966f"/>
+<rect x="300" y="224" width="552" height="416" rx="6" fill="#a3b18a"/>
+<rect x="349" y="289" width="49" height="64" rx="3" fill="#f4f7ec"/>
+<rect x="430" y="289" width="49" height="64" rx="3" fill="#f4f7ec"/>
+<rect x="511" y="289" width="49" height="64" rx="3" fill="#f4f7ec"/>
+<rect x="592" y="289" width="49" height="64" rx="3" fill="#f4f7ec"/>
+<rect x="673" y="289" width="49" height="64" rx="3" fill="#f4f7ec"/>
+<rect x="754" y="289" width="49" height="64" rx="3" fill="#f4f7ec"/>
+<rect x="349" y="400" width="49" height="64" rx="3" fill="#f4f7ec"/>
+<rect x="430" y="400" width="49" height="64" rx="3" fill="#f4f7ec"/>
+<rect x="511" y="400" width="49" height="64" rx="3" fill="#f4f7ec"/>
+<rect x="592" y="400" width="49" height="64" rx="3" fill="#f4f7ec"/>
+<rect x="673" y="400" width="49" height="64" rx="3" fill="#f4f7ec"/>
+<rect x="754" y="400" width="49" height="64" rx="3" fill="#f4f7ec"/>
+<rect x="349" y="511" width="49" height="64" rx="3" fill="#f4f7ec"/>
+<rect x="430" y="511" width="49" height="64" rx="3" fill="#f4f7ec"/>
+<rect x="673" y="511" width="49" height="64" rx="3" fill="#f4f7ec"/>
+<rect x="754" y="511" width="49" height="64" rx="3" fill="#f4f7ec"/>
+<rect x="561" y="540" width="30" height="100" rx="4" fill="#88966f"/>
+<rect x="203" y="552" width="14" height="88" fill="#88966f"/>
+<circle cx="196" cy="504" r="58" fill="#7f946f"/>
+<circle cx="246" cy="528" r="43" fill="#7f946f"/>
+<rect x="935" y="552" width="14" height="88" fill="#88966f"/>
+<circle cx="928" cy="504" r="58" fill="#7f946f"/>
+<circle cx="978" cy="528" r="43" fill="#7f946f"/>
+<text x="60" y="764" font-family="Helvetica, Arial, sans-serif" font-size="29" fill="#88966f">Placeholder - replace with a photo (assets/img/courtyard.svg)</text>
+</svg>

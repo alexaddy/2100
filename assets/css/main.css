@@ -1,0 +1,353 @@
+/* Minimal theme for the coop building site */
+
+:root {
+  --bg: #fdfdfb;
+  --card-bg: #ffffff;
+  --fg: #24292e;
+  --muted: #6a737d;
+  --accent: #2f7d4f;
+  --accent-dark: #245e3c;
+  --border: #e3e6e8;
+  --max-width: 46rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* the full-bleed hero is 100vw wide; don't let it create a scrollbar */
+  overflow-x: hidden;
+  overflow-x: clip;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--fg);
+  background: var(--bg);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Header */
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: var(--card-bg);
+}
+
+.site-header .container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+}
+
+.site-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--fg);
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.nav a {
+  color: var(--muted);
+  text-decoration: none;
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.nav a:hover {
+  color: var(--fg);
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.nav a.active {
+  color: var(--accent-dark);
+  font-weight: 600;
+}
+
+/* Main content */
+
+main {
+  padding: 2.5rem 0 3rem;
+  min-height: 60vh;
+}
+
+h1 {
+  font-size: 1.9rem;
+  line-height: 1.25;
+  margin: 0 0 0.75rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin: 2rem 0 0.75rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.lead {
+  font-size: 1.1rem;
+  color: var(--muted);
+  margin-top: 0;
+}
+
+a {
+  color: var(--accent-dark);
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+/* Posts */
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.65rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.post-list li:last-child {
+  border-bottom: none;
+}
+
+.post-list .post-title {
+  font-weight: 600;
+}
+
+.post-list .post-title a {
+  color: var(--fg);
+}
+
+.post-list .post-title a:hover {
+  color: var(--accent-dark);
+}
+
+.post-list .post-date,
+.post-date {
+  color: var(--muted);
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.post-date {
+  margin: 0 0 1rem;
+}
+
+/* Cards */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.card {
+  display: block;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem;
+  text-decoration: none;
+  color: var(--fg);
+}
+
+.card:hover {
+  border-color: var(--accent);
+}
+
+.card .card-title {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.card .card-desc {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+/* Tables */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.95rem;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+th {
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+/* Code */
+
+code {
+  background: rgba(0, 0, 0, 0.05);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* Footer */
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.85rem;
+  padding: 1.5rem 0 2rem;
+}
+
+/* Full-bleed hero photo (home page) */
+
+.hero {
+  width: 100vw;
+  margin: -2.5rem calc(50% - 50vw) 2rem;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  max-height: 440px;
+  object-fit: cover;
+}
+
+.hero figcaption {
+  font-size: 0.85rem;
+  color: var(--muted);
+  padding: 0.5rem 1rem 0;
+}
+
+@media (max-width: 600px) {
+  .hero img {
+    max-height: 240px;
+  }
+}
+
+/* Photos inside pages and posts */
+
+main img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-photo {
+  margin: 1.5rem 0;
+}
+
+.page-photo img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.page-photo figcaption {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 0.4rem;
+}
+
+/* Gallery grid */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.gallery-item {
+  margin: 0;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 10px;
+  background: var(--border);
+  cursor: zoom-in;
+}
+
+.gallery-item figcaption {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 0.4rem;
+}
+
+/* Lightbox (gallery page) */
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  background: rgba(18, 22, 19, 0.92);
+  cursor: zoom-out;
+}
+
+.lightbox[hidden] {
+  display: none;
+}
+
+.lightbox img {
+  max-width: 95vw;
+  max-height: 85vh;
+  border-radius: 8px;
+}
+
+.lightbox-caption {
+  margin: 0;
+  color: #cfd6d0;
+  font-size: 0.9rem;
+  text-align: center;
+}
