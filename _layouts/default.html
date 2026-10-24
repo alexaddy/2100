@@ -5,19 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
-  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}assets/css/main.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container">
-      <a class="site-title" href="index.html">{{ site.title }}</a>
+      <a class="site-title" href="{{ site.baseurl }}index.html">{{ site.title }}</a>
       <nav class="nav" aria-label="Main navigation">
-        <a href="index.html"{% if page.url == "/" or page.url == "/index.html" %} class="active"{% endif %}>Home</a>
-        <a href="about.html"{% if page.url == "/about.html" %} class="active"{% endif %}>About</a>
-        <a href="gallery.html"{% if page.url == "/gallery.html" %} class="active"{% endif %}>Gallery</a>
-        <a href="events.html"{% if page.url == "/events.html" %} class="active"{% endif %}>Events</a>
-        <a href="documents.html"{% if page.url == "/documents.html" %} class="active"{% endif %}>Documents</a>
-        <a href="contact.html"{% if page.url == "/contact.html" %} class="active"{% endif %}>Contact</a>
+        <a href="{{ site.baseurl }}index.html"{% if page.url == "/" or page.url == "/index.html" %} class="active"{% endif %}>Home</a>
+        <a href="{{ site.baseurl }}about.html"{% if page.url == "/about.html" %} class="active"{% endif %}>About</a>
+        <a href="{{ site.baseurl }}gallery.html"{% if page.url == "/gallery.html" %} class="active"{% endif %}>Gallery</a>
+        <a href="{{ site.baseurl }}events.html"{% if page.url == "/events.html" %} class="active"{% endif %}>Events</a>
+        <a href="{{ site.baseurl }}documents.html"{% if page.url == "/documents.html" %} class="active"{% endif %}>Documents</a>
+        <a href="{{ site.baseurl }}contact.html"{% if page.url == "/contact.html" %} class="active"{% endif %}>Contact</a>
       </nav>
     </div>
   </header>
@@ -28,9 +28,9 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>{{ site.title }} — the resident website of our cooperative building. Questions? <a href="contact.html">Get in touch</a>.</p>
+      <p>{{ site.title }} — the resident website of our cooperative building. Questions? <a href="{{ site.baseurl }}contact.html">Get in touch</a>.</p>
     </div>
   </footer>
-  {% if page.url == "/gallery.html" %}<script src="assets/js/lightbox.js" defer></script>{% endif %}
+  {% if page.url == "/gallery.html" %}<script src="{{ site.baseurl }}assets/js/lightbox.js" defer></script>{% endif %}
 </body>
 </html>

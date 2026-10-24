@@ -78,15 +78,21 @@ Create `_posts/2026-11-15-water-works.md`:
 
 ```markdown
 ---
+layout: default
 title: Water shut-off next Tuesday
 description: One line shown in search results and links.
 ---
 
-Full text here. Markdown works, including [links](events.html).
+Full text here. Markdown works, including [links](/events.html).
 ```
 
 It appears automatically on the home page ("Latest announcements"), newest
 first.
+
+> **Note:** posts are published at `YYYY/MM/DD/` URLs, so always include
+> `layout: default` (gives the post the shared header/footer/styling) and
+> start in-post links with `/` (e.g. `/events.html`) — a plain `events.html`
+> would be looked for inside the post's own year/month folder.
 
 ## Structure
 
