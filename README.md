@@ -3,7 +3,7 @@
 A small static site built with [Jekyll](https://jekyllrb.com/), hosted on
 [GitHub Pages](https://pages.github.com/). Jekyll is built into GitHub Pages,
 so there is **no CI workflow, no build step, no committed build artifacts** —
-pushing Markdown to the `gh-pages` branch is the whole deployment process.
+pushing Markdown to `main` is the whole deployment process.
 
 ## Local development
 
@@ -29,25 +29,23 @@ Gemfile, so you don't need the gem bin directory on your PATH.)
 
 ## Publishing
 
-The site is served from the **`gh-pages` branch**. Develop on `main` and push:
+The site is served from the **`main` branch** (Settings → Pages: *Deploy from a
+branch → `main` / root*). Commit and push:
 
 ```sh
-git push origin main:gh-pages
+git push origin main
 ```
 
 GitHub Pages builds it automatically. Wait a minute or two, then check
-`https://<your-domain>` (or the default `https://<user>.github.io/<repo>` until
+<https://2100.coop> (or the default `https://<user>.github.io/<repo>` until
 the domain is wired up).
-
-In the repo **Settings → Pages**, make sure the source is
-*Deploy from a branch → `gh-pages` / root*.
 
 ## Custom domain
 
 To use your own domain:
 
-1. Create a file `CNAME` at the repository root containing exactly your
-   domain, e.g. `coop.example.com`, and commit it.
+1. Ensure a file `CNAME` at the repository root contains exactly your domain
+   (ours is `2100.coop`) and that it is committed.
 2. In your DNS provider:
    - `coop.example.com` → CNAME to `<user>.github.io`
    - for a bare domain (`example.com`) use an A record pointing at GitHub's
